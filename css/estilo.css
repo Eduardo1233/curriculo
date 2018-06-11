@@ -1,0 +1,62 @@
+header {
+    background: black;
+    height: 60px;
+    color: white;
+    padding: 0 10px;
+    border-radius: 10 px;
+}
+
+.esquerda {
+    float: left;
+}
+
+.direita {
+    float: right;
+}
+
+aside {
+    background: pink;
+    height: 600px;
+    width: 20%;
+    float: left;
+    border-radius: 10px;
+}
+
+main {
+    background: red;
+    height: 641px;
+    width: 75%;
+    float: right;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+section {
+    border: 1px solid green;
+    min-height: 100px;
+    margin: 16px 0;
+    padding: 2px;
+}
+
+footer {
+    background: gray;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    clear: both;
+}
+
+body {
+    font-family: "Times new Roman", Times, serif;
+}
+
+header,
+nav,
+main {
+    margin-bottom: 10px;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
