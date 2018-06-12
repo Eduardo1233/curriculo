@@ -2,8 +2,8 @@ header {
     background: black;
     height: 60px;
     color: white;
-    padding: 0 10px;
-    border-radius: 10 px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .esquerda {
@@ -16,38 +16,48 @@ header {
 
 aside {
     background: pink;
-    height: 600px;
-    width: 20%;
+    padding: 10px;
+    margin-top: 20px;
+    width: 21%;
+    min-height: 550%;
     float: left;
-    border-radius: 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: 15px;
 }
 
 main {
     background: red;
-    height: 641px;
-    width: 75%;
     float: right;
-    border-radius: 10px;
-    padding: 2px;
+    width: 75%;
+    border-radius: 5px;
+    margin-top: 20px;
+    min-height: 550px;
+    margin-bottom: 10px;
+    padding: 7px;
 }
 
 section {
-    border: 1px solid green;
-    min-height: 100px;
-    margin: 16px 0;
-    padding: 2px;
+    border: 2px solid green;
+    padding: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 4px;
+    border-radius: 4px;
 }
 
 footer {
-    background: gray;
-    height: 100px;
-    text-align: center;
-    border-radius: 10px;
     clear: both;
+    background: gray;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    height: 35%;
 }
 
 body {
     font-family: "Times new Roman", Times, serif;
+    margin: 0 auto;
+    width: 75%;
 }
 
 header,
